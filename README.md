@@ -12,6 +12,16 @@ Developed by **voidx**
 
 ---
 
+## 🖥️ Preview
+
+<div align="center">
+
+![NexTrace CLI](assets/nextrace-menu.png)
+
+</div>
+
+---
+
 ## 🧠 About NexTrace
 
 **NexTrace** is a modular Python-based OSINT toolkit designed to bring multiple public-source intelligence and validation utilities into one clean command-line interface.
@@ -216,19 +226,18 @@ No private identity database is queried.
 ```text
 NexTrace/
 │
+├── assets/
+│   └── nextrace-menu.png
+│
 ├── nextrace/
 │   ├── __init__.py
 │   ├── cli.py
-│   │
 │   ├── phone.py
 │   ├── phone_utils.py
-│   │
 │   ├── vehicle.py
 │   ├── rto_data.py
-│   │
 │   ├── username.py
 │   ├── username_sites.py
-│   │
 │   ├── email_intel.py
 │   ├── domain_intel.py
 │   ├── ip_intel.py
@@ -297,11 +306,9 @@ python -m nextrace.cli
 You should see:
 
 ```text
-╭────────────────────────────╮
-│          NexTrace          │
-│  OSINT Intelligence Toolkit │
-│     Developed by voidx     │
-╰────────────────────────────╯
+NexTrace
+OSINT Intelligence Toolkit
+Developed by voidx
 
 Select a module:
 
@@ -391,8 +398,6 @@ Structural validation does not establish official issuance or ownership.
 ---
 
 ## 🗺️ Roadmap
-
-Planned improvements may include:
 
 - [ ] Expanded verified RTO mappings
 - [ ] Additional public username platforms
